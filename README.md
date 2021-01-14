@@ -1,14 +1,16 @@
 # grupo_8_dg
 
-<h1>Proyecto académico muy sencillo bajo NodeJs </h1>
+<h1>Proyecto Integrador de E-commerce de DH </h1>
 
-<h2>Página web muy sencilla trabajanda con HTML5 - CSS3 - (FLEXBOX) - NODEJS - EXPRESS</h2>
-<h3>Para que todo te pueda funcionar adecuadamente en tu equipo, debes hacer lo siguiente  </h3>
+<h2>Página web con un diseño apuntado al publico objetivo y a los productos que ofrecera. Programada con HTML5 - CSS3 - (FLEXBOX) - NODEJS - EXPRESS</h2>
+<h3>Teniendo en cuenta el estudio de mercado realizado por los 3 integrantes del grupo, investigando los productos mas populares de mercadolibre en http://tendencias.mercadolibre.com.ar, llegamos a la conclusion que los siguientes nichos van a ser considerados para tomar la decision final:  </h3>
 <ul>
-  <li>Debes tener presente que en tu PC debes tener instalado NodeJs: <a href="https://nodejs.org/en/">Lo puedes descargar de su página oficial</a> </li>
-  <li>Luego de descargar este repositorio, debes descomprimirlo, luego te ubicas en la carpeta creada y ejecutas el comando: <strong> npm install </strong>  </li>
-  <li>Finalmente debes ekecutar el comando: <strong>npm test </strong> </li>
+  <li> Sandalias economicas para adultos (dama y caballero) </li>
+  <li> Camperas de jean de hombre <strong> </strong>  </li>
+  <li> </li>
+  <li> </li>
+  <li> </li>
 </ul>
 <br>
 <br>
-<h4>Espero les resulte de utilidad   </h4>
+<h4>   </h4>
