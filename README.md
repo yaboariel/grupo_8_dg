@@ -17,3 +17,4 @@
 <br>
 <br>
 <h4> Nuestra idea es apuntar a un tipo de producto en un nicho no tan grande que abarque lo suficiente para que haya distintos tipos de productos pero que tenga un limite. Para ello, nos enfocamos en las busquedas populares de mercadolibre y en el publico objetivo de esas busquedas.   </h4>
+hhh
