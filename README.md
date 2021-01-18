@@ -41,7 +41,7 @@ Este sitio web es moderno y simple, basado en un tipo de producto que pensamos p
 
 #### https://cebra.com.ar/
 
-Esta bueno el mega-menu que tiene esta pagina para mostrar tantas categorías. Como es una juguetería con miles de productos, esta organizada de una manera comoda para filtrar lo que se busca. Muy buen diseño, vendedor, con el desafío bien logrado de llegar a los productos que busca el usuario de manera rápida y agil.
+Esta es la pagina mas vendedora de la lista. Tiene un menu arriba representando el carrito y que vamos ordenando y una opcion para ingresar.  Esta bueno el mega-menu que tiene esta pagina para mostrar tantas categorías. En la pagina principal muestran un slideshow con todas las promociones con tarjetas y todos los mensajes importantes que la empresa desea mostrar en primer plana. Como es una juguetería con miles de productos, esta organizada de una manera comoda para filtrar lo que se busca. Muy buen diseño, 100% width para que ocupe todo el ancho de la pantalla y muestre los productos con imagenes mas grandes, con el desafío bien logrado de llegar a los productos que busca el usuario de manera rápida y agil.
 
 #### https://purafrutta.com/
 
