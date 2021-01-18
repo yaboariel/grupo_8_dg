@@ -31,6 +31,27 @@
 **Agustin Rodriguez:** "Soy un apasionado por los nuevos avances en la inteligencia artificial, tanto en simulaciones de físicas, como en las de sonidos o retoques de imágenes. Estudio en la Universidad Tecnologica Nacional la carrera de Tecnicatura Universitaria en Programación."
 
 ## Inspiración en referentes del mercado:
+
+#### https://www.crocs.com.ar/
+
+Este sitio web es moderno y simple, basado en un tipo de producto que pensamos publicar en nuestro sitio web. Tiene un diseño muy minimalista y funcional para encontrar facilmente lo que busquemos. Esta pensado con las caracteristicas de este tipo de producto, utilizando categorias propias de los calzados. 
+
+#### https://purafrutta.com/
+
+Este sitio es mas de diseño con fotografías y edicion de fotos de alta calidad. Lo elegimos porque tiene un singular tipo de producto que esta enfocado en el publico que se quiere cuidar y que busca en este producto algo natural y confiable. Por eso muestran fotos de la naturaleza con el producto. Ademas, muestran como es el proceso utilizado para producirlos, y ponen testimonios del producto para que entiendas un poco mas cual es su calidad y que tipo de gente toma estos jugos naturales. Es un sitio de un solo tipo de producto, un nicho pequeño de mercado que cuida su salud. 
+
+#### https://www.havaianas.com.ar
+
+Havaianas es similar a crocs en el sentido que son ambas de la categoría calzados. Sus productos a pesar de ser similares, tienen algunas diferencias, pero como la idea nuestra es elegir este tipo de productos, nos puede servir para comprender la categoría y customizar el sitio de acuerdo a las caracteristicas de este tipo de productos para que sea simple para el usuario encontrar y elegir el producto, talle, modelo y color que busque. 
+
+#### https://www.necxus.com.ar/ 
+
+Este es un sitio es una casa de electronica que trabaja hace muchísimo tiempo. La elegimos por la forma en que organiza las categorías y muestra los productos de acuerdo al tipo. No es muy sofisticada, incluso en el home hay mucha variedad de productos que puede marear un poco, pero para la gente que busca en mercadolibre y quiere comprar directo en su pagina, los precios son mas baratos en la pagina y tienen mas opciones de pago y descuentos propios de la pagina. Es una página vendedora a pesar de no ser del todo linda. 
+
+#### https://www.opensports.com.ar/
+
+Este sitio web es el típico de una casa de deportes. Pareciera que se hizo bajo el framework de oscommerce por la forma en que muestran los links de los productos. Muestra las categorias en el nav de manera distinta a lo que hacen havaianas y crocs, donde son mas minimalistas. Aca ponen submenues con muchas opciones: la categoría disciplina tiene 18 opciones! La agregamos aca porque es otra forma de pensar la estructura, no tan minimalista sino mostrando más categorías. Al haber tantos productos, por ser una casa de deportes que tiene una gran variedad, lo resolvieron agregando opciones en el nav menu. El desafío en este tipo de tiendas es filtrar de una manera efectiva, para que cuando entres a una categoría no te aparezcan 1489 productos, como te pasa cuando entras a la categoría mujer, y cual es el criterio para mostrar un producto sobre otro, porque hay que tomar en cuenta muchísimas cosas. 
+
 #### https://www.dafiti.com.ar/femenino/calzado/sandalias-femenino/
 
 #### **"DAFITI"**
