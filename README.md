@@ -19,7 +19,7 @@
 
 
 #### Nuestra idea es apuntar a un tipo de producto en un nicho no tan grande que abarque lo suficiente para que haya distintos tipos de productos pero que tenga un limite. Para ello, nos enfocamos en las busquedas populares de mercadolibre y en el publico objetivo de esas busquedas. Apuntamos a un publico tanto hombres como mujeres adultos. 
-De acuerdo a las busquedad en mercadolibre de calzados:  https://listado.mercadolibre.com.ar/calzado#D[A:calzado,L:undefined] pudimos tener una idea de como vamos a manejar las categorias y que tan amplio va a ser el nicho. 
+De acuerdo a las busquedad en mercadolibre de calzados:  https://listado.mercadolibre.com.ar/calzado#D[A:calzado,L:undefined] pudimos tener una idea de como vamos a manejar las categorias y que tan amplio va a ser el nicho. Al achicarlo, entrando a la parte de ojotas y sandalias: https://zapatos.mercadolibre.com.ar/zapatos-sandalias-ojotas/calzado#filter el nicho sigue siendo lo suficientemente grande para que hayan muchos productos y lo suficientemente chico para que no sean demasiados productos y que sean manejables. 
 
 
 ## Descripcion de los Integrantes:
