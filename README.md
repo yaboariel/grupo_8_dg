@@ -36,6 +36,10 @@
 
 Este sitio web es moderno y simple, basado en un tipo de producto que pensamos publicar en nuestro sitio web. Tiene un diseño muy minimalista y funcional para encontrar facilmente lo que busquemos. Esta pensado con las caracteristicas de este tipo de producto, utilizando categorias propias de los calzados. 
 
+#### https://cebra.com.ar/
+
+Esta bueno el mega-menu que tiene esta pagina para mostrar tantas categorías. Como es una juguetería con miles de productos, esta organizada de una manera comoda para filtrar lo que se busca. Muy buen diseño, vendedor, con el desafío bien logrado de llegar a los productos que busca el usuario de manera rápida y agil.
+
 #### https://purafrutta.com/
 
 Este sitio es mas de diseño con fotografías y edicion de fotos de alta calidad. Lo elegimos porque tiene un singular tipo de producto que esta enfocado en el publico que se quiere cuidar y que busca en este producto algo natural y confiable. Por eso muestran fotos de la naturaleza con el producto. Ademas, muestran como es el proceso utilizado para producirlos, y ponen testimonios del producto para que entiendas un poco mas cual es su calidad y que tipo de gente toma estos jugos naturales. Es un sitio de un solo tipo de producto, un nicho pequeño de mercado que cuida su salud. 
