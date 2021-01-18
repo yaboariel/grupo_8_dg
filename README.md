@@ -42,7 +42,7 @@ Este sitio es mas de diseño con fotografías y edicion de fotos de alta calidad
 
 #### https://www.havaianas.com.ar
 
-Havaianas es similar a crocs en el sentido que son ambas de la categoría calzados. Sus productos a pesar de ser similares, tienen algunas diferencias, pero como la idea nuestra es elegir este tipo de productos, nos puede servir para comprender la categoría y customizar el sitio de acuerdo a las caracteristicas de este tipo de productos para que sea simple para el usuario encontrar y elegir el producto, talle, modelo y color que busque. 
+Havaianas es similar a crocs en el sentido que son ambas de la categoría calzados. Sus productos a pesar de ser similares, tienen algunas diferencias, pero como la idea nuestra es elegir este tipo de productos, nos puede servir para comprender la categoría y customizar el sitio de acuerdo a las caracteristicas de este tipo de productos para que sea simple para el usuario encontrar y elegir el producto, talle, modelo y color que busque. Un detalle que encontre en esta página y que estaría bueno que tenga nuestro sitio web es que el menu nav no se mueva y permanezca fixed mientras hacemos scroll. 
 
 #### https://www.necxus.com.ar/ 
 
