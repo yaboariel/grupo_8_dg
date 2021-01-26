@@ -82,3 +82,9 @@ https://store.steampowered.com/
 #### **"STEAM STORE"**
 
 Se presentan las características de los productos de manera bastante puntual. Asimismo permite compartir fácilmente los productos a redes sociales para una mayor propagación.
+
+#### Metodologías ágiles 
+#### Trello: 
+Sprint 1: https://trello.com/invite/b/2rndj21M/4d223cd264bf898db14ec12216e236e6/sprint1
+Sprint 2: https://trello.com/invite/b/gArROWQO/4c2203f25d9f8b6a7c9ba00ea7989af8/sprint-2
+
