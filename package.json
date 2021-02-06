@@ -2,9 +2,9 @@
   "name": "proyecto-integrador-grupo-8",
   "version": "1.0.0",
   "description": "![logo digital house](https://www.digitalhouse.com/ar/logo-dh-blanco.png)",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test":  "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/yaboariel/grupo_8_dg#readme",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1"
   }
 }
