@@ -1,0 +1,659 @@
+*{font-family: 'Roboto', sans-serif; 
+    margin:0;
+    
+    box-sizing: border-box;}
+   
+  main {
+      margin:0 auto; 
+      width:90%;
+         }
+                   
+  .encabezado {
+                background-color:#EAC926;
+                padding-bottom:3px;
+                width:100%;
+                position:fixed;   
+                top: 0;
+                height:100px;
+                z-index: 100;
+  
+              }
+  #banner {  margin-top:100px; ;
+             
+  
+  }
+  
+  
+  /* top envuelve al logo, la barra de busqueda y mensaje de cuotas, salvo para celulares donde oculto las cuotas*/
+  .top        { display:flex;
+                flex-wrap:wrap;
+                padding:10px;
+                box-sizing: border-box; 
+                width:90%;
+                margin:0 auto; 
+              }
+  .logo       {
+                  width:30%
+         
+              }
+  
+  .cuotas       {              
+                  font-size:1rem; 
+                  width:0%;
+                  text-align:center;
+                  display:none;
+                }     
+  .barbusqueda {        
+                  width:70%;
+               }               
+  
+  
+  .barbusqueda input[type=text]{
+                  margin-top:0px;
+                  margin-left:30px;
+                  padding: 0px 0px;
+                  border: 1px solid black;
+                  font-size: 12px;
+                  width:50%
+                       }
+                            
+                                                  
+                       
+  /*cuotas2 es el mensaje de cuotas para celulares porque no comparten un flex, sino que va abajo */
+  #cuotas2  { text-align:center;} 
+              
+  /*Aplicando propiedades al menú de las 3 barritas en fdo azul*/
+  .barras {
+            font-size: 12px;
+            background-color:#1259c3;
+            color: white;
+            display: block;
+            margin: auto;
+            text-align: center;
+            max-width: 40px;   
+            padding: 7px;
+            border-radius: 10px;
+          }
+  
+  img  {
+          width: 100%;
+       } 
+  
+  
+  
+  
+  .menu {
+          color:#666;
+          font-size:1rem; 
+          padding:10px;
+          width:90%;
+          margin:0 auto; 
+
+
+        }   
+  
+  
+  .opciones, .opciones2 ,.opciones2soloicono {
+              display:none;
+              }
+  
+  .opciones2 a, .opciones li a {
+                            padding-left:10px;
+                          }
+  
+        
+  .productos { 
+          display:flex;
+          padding:1rem; 
+          flex-wrap:wrap;
+          box-sizing: border-box;
+          
+         }
+  
+ 
+  .titulares{
+          font-size:24px; 
+  
+        }      
+  .producto {
+             margin:20px auto;
+             
+             background-color: rgb(255, 255, 255);
+             box-sizing: border-box;
+            }
+  .producto a img {
+                    width:70%;
+
+  }
+
+  .caja-producto {
+                  border-top: 1px #ebebeb solid;
+                  padding:15px;
+                  position:relative;
+                 }
+  
+
+ 
+
+                 
+
+  main section article section i  
+              {
+                display: block ;
+                font-size: 16px ;
+                padding: 5px ;
+                width: 30px ;
+                height: 30px ;
+                border: 1px solid #39b54a ;
+                background-color: #FFF ;
+                border-radius: 50% ;
+                position: absolute ;
+                right: 20px ;
+                top: -15px ;      
+              }        
+  
+  
+  
+  
+  p {font-size:12px;}
+  
+   
+  
+  .precios {  
+            font-size:18px;
+            display:inline;}
+  
+  .descuentos {font-size:16px;
+              display:inline; 
+              color:#39b54a;
+              padding:20px;}
+  
+  .descripciones {
+                  font-size:16px; 
+                  font-weight:bold;
+                  display: none;
+  
+                }
+  
+  
+  .icofoot {
+            
+            font-size:2.0em;
+            color:#1259c3;
+            margin-bottom: 10px;
+            transition: color 1s;
+  
+          }
+  
+  .icofoot:hover {
+            color:orange;
+  
+  }
+  .titfoot {
+            margin-bottom:10px;
+  
+          }
+  
+  .textfoot {
+  
+            font-size: 12px;
+          }
+  
+  #Copyright  {
+                margin-top:25px;
+                text-align:center;
+                margin-bottom: 20px;
+  }
+   
+  
+  /*
+  ********************************************
+  media screen 361px
+  */
+  
+  
+  @media screen and (min-width: 361px) {
+    .logo {
+      width:20%
+     }
+    .encabezado {height:100px}
+    #banner {  margin-top:100px; }
+  
+  .barbusqueda input[type=text]{
+      /*float: right;*/
+      margin-top:0px;
+      margin-left:20px;
+      padding: 4px 20px;
+      border: none;
+      /*margin-top: 8px;
+      margin-right: 16px;*/
+      font-size: 12px;
+           }
+           
+           
+  .barbusqueda {        
+                  width:40%
+               } 
+  
+  .cuotas {              
+            margin-top:0px;
+            width:40%;
+            display:block;
+            font-size:12px;
+          }           
+  #cuotas2  { display:none;} 
+  
+  .menu { display:flex;
+    flex-wrap: wrap;
+    color:#666666;
+    font-weight:bold;
+     
+  }     
+  
+  .opciones  {
+  display: flex;
+  list-style: none;
+  margin: 0; 
+  padding: 0; 
+  padding-left: 0px;
+  /*padding-right: 10px;*/
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 60%;
+  }
+  .opciones li{
+      /*flex: 1; */
+    }            
+  
+  .opciones a{
+  
+    font-size: 0.8rem;
+    text-decoration: none;
+  
+    font-weight:bold;  
+  
+  }
+  .opciones a:hover{
+    color: rgb(0, 49, 128);
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .opciones2  {
+    display:none;
+    }
+  
+  
+  .opciones2soloicono {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+  width: 40%;
+  
+  }
+  
+  .opciones2soloicono a{          
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight:bold;
+  margin-left:10px;
+  }      
+  
+  
+  .productos {
+              flex-wrap:wrap;
+             }  
+  
+  .producto{  box-shadow:none;  
+              width:50%; 
+              transition: box-shadow 1s;
+            }
+  .descripciones {display:none;
+            }
+            
+  
+  .producto:hover { box-shadow:  0px 0px 100px rgb(116, 116, 116);
+  } 
+  
+  .barras {display:none}
+   
+  footer { 
+            text-align:center;
+            padding:20px;
+          }
+  
+  
+  
+  
+  
+  
+  
+  /*
+  ********************************************
+  media screen 400px
+  */
+  
+  
+  @media screen and (min-width: 400px) {
+    .logo {
+      width:20%
+     
+    }
+  
+    .encabezado {
+      height:100px;
+  
+    }
+    #banner {  margin-top:100px;}
+  
+  .barbusqueda input[type=text]{
+      /*float: right;*/
+      margin-top:0px;
+      margin-left:20px;
+      padding: 6px 40px;
+      border: none;
+      /*margin-top: 8px;
+      margin-right: 16px;*/
+      font-size: 12px;
+           }
+           
+           
+  .barbusqueda {        
+                  width:40%
+               } 
+  
+  .cuotas {              
+            margin-top:0px;
+            width:40%;
+            display:block;
+            font-size:12px;
+          }           
+  #cuotas2  { display:none;} 
+  
+  .menu { display:flex;
+    flex-wrap: wrap;
+    color:#666666;
+    font-weight:bold;
+     
+  }     
+  
+  .opciones  {
+  display: flex;
+  list-style: none;
+  margin: 0; 
+  padding: 0; 
+  padding-left: 0px;
+  /*padding-right: 10px;*/
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 50%;
+  }
+  .opciones li{
+      /*flex: 1; */
+    }            
+  
+  .opciones a{
+  
+    font-size: 0.8rem;
+    text-decoration: none;
+  
+    font-weight:bold;  
+  
+  }
+  .opciones a:hover{
+    color: rgb(0, 49, 128);
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .opciones2  {
+    display:none;
+    }
+  
+  
+  .opciones2soloicono {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+  width: 50%;
+  
+  
+  }
+  
+  .opciones2soloicono a{          
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight:bold;
+  margin-left:25px;
+  }      
+  
+  
+  .productos {
+              flex-wrap:wrap;
+             }  
+  
+  .producto{  box-shadow:none;  
+              width:50%; 
+              transition: box-shadow 1s;
+            }
+  .descripciones {display:hidden;
+            }             
+  .producto:hover { box-shadow:  0px 0px 100px rgb(116, 116, 116);
+                  
+                  } 
+  
+  .barras {display:none}
+   
+  footer { 
+            text-align:center;
+            padding:20px;
+          }
+  
+  
+  
+  
+  
+  /*
+  ********************************************
+  media screen 769px
+  
+  */
+  
+  @media screen and (min-width: 769px) {
+  .logo {
+            width:30%;
+        }
+  
+  
+        .encabezado {
+          height:150px;
+      
+        }
+        #banner {  margin-top:150px;}      
+    .barbusqueda input[type=text]
+    {
+      /*float: right;*/
+      margin-top:10px;
+      margin-left:20px;
+      padding: 6px 50px;
+      border: 1px solid;
+      /*margin-top: 8px;
+      margin-right: 16px;*/
+      font-size: 12px;
+           }
+  .cuotas       {              
+            margin-top:10px;
+            width:30%;
+            display:block;
+            font-size:14px;
+          }     
+          
+  #cuotas2  { display:none;}    
+       
+  
+  .menu { display:flex;
+                  flex-wrap: wrap;
+                  color:#666666;
+                  flex-direction: row;
+                  font-weight:bold;
+                   
+            }     
+      
+  .opciones  {
+        display: flex;
+        list-style: none;
+        margin: 0; 
+        padding-left: 0px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 50%;
+                }
+  .opciones li{
+                    flex: 1; 
+    
+                  }            
+    
+  .opciones a{
+         
+                  font-size:0.9rem;
+                  text-decoration: none;
+                  padding-right: 10px;
+                  font-weight:bold;  
+  
+                }
+  .opciones a:hover, .opciones2 a:hover {
+                  color: #1259c3;
+                  background-color: white;
+                  border-radius: 10px;
+                  padding:20px;
+                }
+  
+                
+  .opciones2soloicono  { display:none;}                  
+  .opciones2 {
+        display: flex;
+        list-style: none;
+        margin: 0; 
+        padding: 0px; 
+        
+        padding-right: 0px;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: flex-end;
+  
+  
+        }
+  .opciones2 a{          
+                font-size: 0.9rem;
+                text-decoration: none;
+                font-weight:bold;
+                padding-left: 10px;
+            }   
+            
+             
+                    
+    
+  #tiendas   {
+                    flex-grow:2;
+    
+            }
+  
+  .productos {
+                flex-wrap:wrap;
+               }
+  .producto{
+                /*box-shadow:  0px 0px 10px rgb(100 , 100, 100);*/
+                width:25%;
+                
+              }
+  .descripciones {
+               display:hidden;
+              }
+  
+  
+  .barras {display:none}
+  
+  #footcontainer {
+    box-sizing: border-box;
+    display:flex;
+   
+  }
+  .columnas-foot {
+    width:30%;
+   
+   }
+  
+  
+  
+  
+  
+  
+  
+   @media screen and (min-width: 1000px) {
+    
+    .encabezado {
+      height:150px;
+  
+    }
+    #banner {  margin-top:150px;}
+    .opciones a {
+      font-size:1rem;
+  
+    }
+    .opciones2 a {
+      font-size:1rem;
+  
+    }
+  
+   }
+  
+  @media screen and (min-width: 1200px) {
+     
+    .encabezado {
+      height:200px;
+  
+    }
+    #banner {  margin-top:200px;}
+    .opciones  {
+      width: 40%;
+              }
+  
+    .opciones a { 
+             font-size:1rem;
+    }            
+  .cuotas: {
+              width:30%;
+          }
+  .opciones2 {
+    width: 60%;
+    justify-content: flex-end;
+  
+  
+    }
+    .opciones2 a {
+      font-size:1rem;
+  
+    }
+    .icono {
+       margin-left:10px;
+  
+  
+    }
+     .producto:hover  .descripciones {
+      display:block;
+      color=red;
+     }
+  
+  #footcontainer {
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .columnas-foot {
+   width:30%;
+  
+  }
+  
+  }
