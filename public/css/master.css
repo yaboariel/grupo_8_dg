@@ -3,7 +3,15 @@
     /*font-family: 'Roboto', sans-serif; */
     margin:0;
     
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    tr {
+      float: left;
+  }
+  
+  tr:nth-child(3n+1) {
+      clear: left;
+  }
+}
    
   main {
       margin:0 auto; 
@@ -493,6 +501,8 @@
        
   
   .menu { display:flex;
+      
+
                  /* flex-wrap: wrap;*/
                   color:#ffffff;
                  /* flex-direction: row;*/
@@ -614,17 +624,20 @@
       height:110px;
   
     }
-    .top {justify-content: space-between }
+    .top {justify-content: space-between; }
 
     .logo {
       width:9%;
      } 
-    
+     
     .cuotas       {
      /* width:60%;*/
      align-self:stretch;
-     
-     
+     font-size:x-large;
+     font-weight:bold;
+     margin-left:10%;
+     justify-content: flex-end;
+
      }
     
     .barbusqueda {
@@ -635,20 +648,20 @@
     #banner {  margin-top:110px;}
     .menu {
       display:flex;
-      
+      justify-content: space-between; 
     }
     .menu a {
       color:white;
       
     }
     .opciones  {
-      width: 25%;
+      width: 20%;
       justify-content: flex-start;
     }
   
             
   .opciones2 {
-    width: 75%;
+    width: 80%;
     justify-content: flex-end;
   
   

@@ -20,6 +20,12 @@ module.exports = {
     index : (req,res) =>{
         return res.render(path.resolve(__dirname, '../views/web/home'),{menues: menues});
     },
+    login : (req,res) =>{
+        return res.render(path.resolve(__dirname, '../views/web/login'),{menues: menues});
+    },
+    register : (req,res) =>{
+        return res.render(path.resolve(__dirname, '../views/web/register'),{menues: menues});
+    },
     /*about : (req,res) =>{
         return res.render('about');
     },
