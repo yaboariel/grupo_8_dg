@@ -26,6 +26,15 @@ module.exports = {
     register : (req,res) =>{
         return res.render(path.resolve(__dirname, '../views/web/register'),{menues: menues});
     },
+    
+    detalle : (req,res) =>{
+        return res.render(path.resolve(__dirname, '../views/web/productDetail'),{menues: menues});
+    },
+    
+    cart : (req,res) =>{
+        return res.render(path.resolve(__dirname, '../views/web/productCart'),{menues: menues});
+    },
+
     /*about : (req,res) =>{
         return res.render('about');
     },

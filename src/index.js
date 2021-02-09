@@ -5,6 +5,7 @@ const path = require('path');
 app.set('view engine', 'ejs');
 app.use(express.static('./public'));
 const webRouter = require('./routes/webRouter');
+
 app.use('/',webRouter);
 
 
