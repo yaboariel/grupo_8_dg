@@ -4,20 +4,15 @@
     margin:0;
     
     box-sizing: border-box;
-    tr {
-      float: left;
-  }
-  
-  tr:nth-child(3n+1) {
-      clear: left;
-  }
-}
+    }
    
   main {
       margin:0 auto; 
       width:90%;
          }
-                   
+body {              
+         background-color: #F5F5F5;
+}   
   .encabezado {
                 background-color:#0065AF;
                 padding-bottom:3px;
@@ -55,9 +50,9 @@
                }               
                .barbusqueda input[type=text]{
                 margin-top:0px;
-                margin-left:30px;
-                padding: 0px 0px;
-                border: 1px solid black;
+                margin-left:0px;
+                padding: 100px 100px;
+                border: 1px solid lightskyblue;
                 font-size: 12px;
                 /*width:20%*/
                      }
@@ -95,7 +90,9 @@
        } 
   
   
-  
+  .caja-menu {           background-color: #0076CB;
+
+                          }
   
   .menu {
           color:rgb(255, 255, 255);
@@ -103,7 +100,6 @@
           padding:10px;
           width:90%;
           margin:0 auto; 
-
 
         }   
   
@@ -114,6 +110,8 @@
   
   .opciones2 a, .opciones li a {
                             padding-left:10px;
+                            /*color:gold;*/
+
                           }
   
         
@@ -125,24 +123,62 @@
           
          }
   
- 
-  .titulares{ 
+         .genero  {
+          font-family: 'GothamRounded-Bold', Helvetica, Arial;
+          font-size: 88px;
+          text-align: center;
+          color: #0073CD;
+         }
+         .genero.pink  {
+          font-family: 'GothamRounded-Bold', Helvetica, Arial;
+          font-size: 88px;
+          color: #FF007F;
+         }
+         
+         
+         
+
+         .titulares{ 
           font-family: 'ProximaNova-Semibold', Helvetica, Arial;
           font-size:30px; 
           text-align: center;
           margin-top:20px;
-        }      
+        } 
+        
+        
   .producto {
              margin:20px auto;
              
              background-color: rgb(255, 255, 255);
              box-sizing: border-box;
 
+
             }
   .producto a img {
                     width:70%;
+                    height:250px; 
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
 
   }
+  .producto-genero {
+    margin:120px auto;
+    
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+
+
+   }
+ .producto-genero a img {
+           width:70%;
+           height:450px; 
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+
+  }
+
 
   .caja-producto {
                   border-top: 1px #ebebeb solid;
@@ -197,7 +233,7 @@
   .icofoot {
             
             font-size:2.0em;
-            color:#1259c3;
+            color:lightskyblue;
             margin-bottom: 10px;
             transition: color 1s;
   
@@ -213,13 +249,14 @@
           }
   
   .textfoot {
-  
+            color:lightskyblue;
             font-size: 12px;
           }
   
   #Copyright  {
                 margin-top:25px;
                 text-align:center;
+                color:whitesmoke;
                 margin-bottom: 20px;
   }
    
@@ -237,8 +274,9 @@
   .barbusqueda input[type=text]{
       /*float: right;*/
       margin-top:0px;
-      margin-left:20px;
-      padding: 4px 20px;
+      padding: 6px 20px;
+      border-radius: 10px ;
+
       border: none;
       /*margin-top: 8px;
       margin-right: 16px;*/
@@ -337,6 +375,8 @@
   footer { 
             text-align:center;
             padding:20px;
+            background-color:#0065AF;
+            color:#ffffff;
           }
   
   
@@ -483,18 +523,17 @@
     {
       /*float: right;*/
       margin-top:10px;
-      margin-left:20px;
-      padding: 6px 50px;
-      border: 1px solid;
+      margin-left:0px;
+      padding: 10px 80px;
+      border: 1px silver solid;
       /*margin-top: 8px;
       margin-right: 16px;*/
       font-size: 12px;
            }
   .cuotas       {              
             margin-top:10px;
-            width:30%;
+            width:13%;
             justify-content: flex-end;
-            font-size:14px;
           }     
           
   #cuotas2  { display:none;}    
@@ -530,6 +569,7 @@
                   text-decoration: none;
                   padding-right: 10px;
                   /*font-weight:bold;  */
+
   
                 }
   .opciones a:hover, .opciones2 a:hover {
@@ -537,6 +577,7 @@
                   background-color: white;
                   border-radius: 10px;
                   padding:8px;
+
                 }
   
                 
@@ -559,6 +600,7 @@
                 text-decoration: none;
                 /*font-weight:bold;*/
                 padding-left: 10px;
+
             }   
             
              
@@ -574,9 +616,15 @@
                }
   .producto{
                 /*box-shadow:  0px 0px 10px rgb(100 , 100, 100);*/
-                width:25%;
-                
+                width:23%;
+                margin-right:10px;
               }
+
+              .producto-genero{
+                /*box-shadow:  0px 0px 10px rgb(100 , 100, 100);*/
+                width:40%;
+                margin-right:10px;
+              }                
   .descripciones {
                display:hidden;
               }
@@ -633,15 +681,13 @@
     .cuotas       {
      /* width:60%;*/
      align-self:stretch;
-     font-size:x-large;
+     font-size:large;
      font-weight:bold;
-     margin-left:10%;
      justify-content: flex-end;
 
      }
     
     .barbusqueda {
-      width:20%;
 
     }
 
@@ -651,9 +697,17 @@
       justify-content: space-between; 
     }
     .menu a {
-      color:white;
       
     }
+    .opciones a{      color:white;
+    }
+
+    .opciones2 a{
+                  color:goldenrod;
+                  font-weight: bold;
+
+    }
+
     .opciones  {
       width: 20%;
       justify-content: flex-start;
@@ -663,7 +717,7 @@
   .opciones2 {
     width: 80%;
     justify-content: flex-end;
-  
+
   
     }
     
