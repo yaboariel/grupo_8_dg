@@ -4,7 +4,8 @@
   "description": "![logo digital house](https://www.digitalhouse.com/ar/logo-dh-blanco.png)",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodemon src/index.js"
+    "test": "nodemon src/index.js",
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
