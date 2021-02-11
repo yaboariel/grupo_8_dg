@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <%- include('../partials/head')   %>
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Sandies Argentina</title> 
@@ -13,52 +14,8 @@
 
 </head>
 <body>
-    <header> 
-        <section id='header-1'>
-
-        <section class='header-main'>
-
-            <figure class='logo'>
-                <a href="/"> <img id='logo' src= 'images/descarga.png' alt= 'Logotipo PRUEBA Paginaweb'></a>
-            </figure>
-
-            <section class='navbar'>
-                <section>
-                    <div>
-                        <input class='navbar-text' type='text' id='busqueda' placeholder="Buscar modelos, talles, etc" name='busqueda'>
-                    </div>
-                </section>
-            </section>
-
-            </section>
-            <nav>               
-
-                <section class='mobile-1'>
-
-                    <ul class="text-items">
-                        <li><a href= '#'>Ofertas</a></li>
-                        <li><a href= '#'>Marcas Recomendadas</a></li>
-                        <li><a href= '#'>Categorias</a></li>
-                        <li><a href= '#'>Ayuda</a></li>
-                        <li><a href= '#'>Quienes Somos</a></li>
-                    </ul>
-
-                    <ul class="text-items">
-                        <li><a href="/register">Creá tu cuenta <i class="fas fa-id-badge"></i></i></a></li>
-                        <li><a href= "/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></i></li>
-                        <li><a href= '#'>Mis compras <i class="fas fa-box"></i></a></i></li>
-                    </ul>
-
-                </section>
-
-                <figure id='mobile-1' class= 'burger-menu'>
-                    <i class="fas fa-bars" id='burger-menu'></i>
-                </figure>
-
-        </nav>
-        </section>
-
-    </header>
+    <!-- Header -->
+    <%- include('../partials/header')   %>
     <main>
 
         <h2 id='titulos-1' class= 'titles' >Ingresá a tu cuenta</h2>
