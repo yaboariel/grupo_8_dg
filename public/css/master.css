@@ -130,13 +130,29 @@ body {
           color: #0073CD;
          }
          .genero.pink  {
-          font-family: 'GothamRounded-Bold', Helvetica, Arial;
-          font-size: 88px;
           color: #FF007F;
          }
          
-         
-         
+         .boton.pink {
+          background-color: #FF007F;
+          
+        }
+        .boton   {
+          text-align: center;
+          background-color: #0073CD;
+          color:white;
+          display: inline-block;
+          background-color: #0076CB;
+          padding: 15px 48px;
+          font-family: 'ProximaNova-Bold', Helvetica, Arial;
+          font-size: 14px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          color: #FFF;
+          border: 0px;
+          border-radius: 0px;
+          cursor: pointer;
+        }
 
          .titulares{ 
           font-family: 'ProximaNova-Semibold', Helvetica, Arial;
@@ -184,9 +200,22 @@ body {
                   border-top: 1px #ebebeb solid;
                   padding:15px;
                   position:relative;
+                  text-align:center;
                  }
-  
+  .caja-producto h2 {
 
+
+
+  }
+  .caja-producto p {
+    
+      font-family: 'ProximaNova-Regular', Helvetica, Arial;
+      font-size: 14px;
+      color: #999;
+      line-height: 1.7;
+      padding: 20px 0px;
+      width: 100%; 
+  }
  
 
                  

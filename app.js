@@ -6,6 +6,8 @@ const publicPath = path.resolve(__dirname, './public');
 app.use(express.static(publicPath));
 app.set('puerto', process.env.PORT || 3000);
 
+const methodOverride= require('method-override');
+
 app.listen (app.get('puerto'), ()=> console.log(`Servidor corriendo de manera satisfactoria  ${app.get('puerto')}` ));
 
 app.get('/', (req,res) => {
