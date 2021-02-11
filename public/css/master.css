@@ -202,22 +202,13 @@ body {
                   position:relative;
                   text-align:center;
                  }
-  .caja-producto h2 {
-
-
-
-  }
-  .caja-producto p {
-    
-      font-family: 'ProximaNova-Regular', Helvetica, Arial;
-      font-size: 14px;
-      color: #999;
-      line-height: 1.7;
-      padding: 20px 0px;
-      width: 100%; 
-  }
+                 .caja-producto-genero {
+                  border-top: 1px #ebebeb solid;
+                  padding:15px;
+                  position:relative;
+                  text-align:center;
+                 }
  
-
                  
 
   main section article section i  
@@ -258,7 +249,20 @@ body {
   
                 }
   
-  
+                .caja-producto-genero p {
+    
+                  font-family: 'ProximaNova-Regular', Helvetica, Arial;
+                  font-size: 14px;
+                  color: #999;
+                  line-height: 1.7;
+                  padding: 20px 0px;
+                  width: 100%; 
+              }
+             
+            
+
+
+
   .icofoot {
             
             font-size:2.0em;
