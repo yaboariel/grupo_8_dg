@@ -39,7 +39,7 @@ body {
                 box-sizing: border-box;
               }
   .logo       {
-                  width:9%
+                  width:40%
               }
   
      
@@ -89,7 +89,8 @@ body {
           width: 100%;
        } 
   
-  
+
+  }
   .caja-menu {           background-color: #0076CB;
 
                           }
@@ -315,7 +316,9 @@ body {
       margin-right: 16px;*/
       font-size: 12px;
            }
-           
+  .logo       {
+            width:40%
+        }        
            
   .barbusqueda {        
                   width:40%
@@ -551,6 +554,10 @@ body {
           height:150px;
       
         }
+
+        .logo       {
+          width:20%
+      }
         #banner {  margin-top:150px;}      
     .barbusqueda input[type=text]
     {
@@ -649,7 +656,7 @@ body {
                }
   .producto{
                 /*box-shadow:  0px 0px 10px rgb(100 , 100, 100);*/
-                width:23%;
+                width:45%;
                 margin-right:10px;
               }
 
@@ -705,10 +712,14 @@ body {
       height:110px;
   
     }
+
+    .caja-menu {           background-color: #0076CB;
+                            border-bottom:  #0076CB 7px solid;
+    }
     .top {justify-content: space-between; }
 
     .logo {
-      width:9%;
+      width:13%;
      } 
      
     .cuotas       {
@@ -759,6 +770,12 @@ body {
   
   
     }
+
+    .producto{
+      /*box-shadow:  0px 0px 10px rgb(100 , 100, 100);*/
+      width:23%;
+      margin-right:10px;
+    }
      .producto:hover  .descripciones {
       display:block;
       color:black;
@@ -772,6 +789,14 @@ body {
   .columnas-foot {
    width:30%;
   
+  }
+  
+  }
+
+  @media screen and (min-width: 1200px) {
+  .logo {
+        width:14%;
+
   }
   
   }
