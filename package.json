@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-integrador-grupo-8",
+  "version": "1.0.0",
+  "description": "![logo digital house](https://www.digitalhouse.com/ar/logo-dh-blanco.png)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaboariel/grupo_8_dg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaboariel/grupo_8_dg/issues"
+  },
+  "homepage": "https://github.com/yaboariel/grupo_8_dg#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "method": "^2.0.0",
+    "override": "0.0.1"
+  }
+}
