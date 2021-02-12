@@ -8,5 +8,7 @@ const webRouter = require('./routes/webRouter');
 
 app.use('/',webRouter);
 
+app.set('puerto', process.env.PORT || 3000);
 
-app.listen('3001', () => console.log('Servidor esta corriendo en el puerto 3001'));
+
+app.listen (app.get('puerto'), ()=> console.log(`Servidor corriendo de manera satisfactoria  ${app.get('puerto')}` ));
