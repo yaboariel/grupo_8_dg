@@ -2,236 +2,230 @@
 <html lang="es">
 
   <%- include('../partials/head')   %>
+
+
+
   <body>
+    
     <!-- Header -->
     <%- include('../partials/header')   %>
+
+    <figure id="banner"><img src="/images/banner-sandalias.jpg" width="100%" alt="banner mercadoliebre"></figure>
+
     <!-- Page content -->
     <main>
-        <!-- <section class="banners">
-                <div class="banner-item"><a href=""><img src="/images/sandals.png" alt=""></a></div>
-                <div class="banner-item"><a href=""><img src="/images/flipflops.png" alt=""></a></div>
-                <div class="banner-item"><a href=""><img src="/images/crocs.png" alt=""></a></div>
-        </section> -->
-        <div id="mainCatCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#mainCatCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#mainCatCarousel" data-slide-to="1"></li>
-                  <li data-target="#mainCatCarousel" data-slide-to="2"></li>
-                </ol>
-            
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="/images/sandals.png" alt="Sandals" style="width:100%;">
-                  </div>
-            
-                  <div class="item">
-                    <img src="/images/flipflops.png" alt="Flipflops" style="width:100%;">
-                  </div>
-                
-                  <div class="item">
-                    <img src="/images/crocs.png" alt="Crocs" style="width:100%;">
-                  </div>
-                </div>
-            
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#mainCatCarousel" data-slide="prev">
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#mainCatCarousel" data-slide="next">
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-        <!--<ul class="opciones">
-                <li><a href="#">Inicio</a></li>
-                <li id="tiendas"><a href="#">Hombre</a></li>
-                <li><a href="#">Dama</a></li>
-                <li><a href="#">Ofertas</a></li>
-        </ul>-->
-        <h2 class="titulares">BASADO EN TU ULTIMA VISITA</h2>
+    <h2 class="titulares">BASADO EN TU ULTIMA VISITA</h2>
         <section class="productos">
                 <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias2.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
+                        <p><a href""><img src="/images/sandalias2.jpg"></a></p>
+                        <section class="caja-producto">
+                                <i class="fas fa-truck"></i>
                                 <p class="precios">$6.770</p>
                                 <p class="descuentos">40% OFF</p>
                                 <p class="descripciones">Cafetera Moulinex</p>
-                        </section>
+                        </section>                                        
                 </article>
+                
                 <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias3.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
+                       
+                        <p><a href""><img src="/images/sandalias3.jpg"></a></p>
+                        <section class="caja-producto">
+                                <i class="fas fa-truck"></i>
                                 <p class="precios">$230.000</p>
                                 <p class="descuentos">20% off</p>
                                 <p class="descripciones">MacBook Pro 2019</p>
                         </section>
                 </article>
                 <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias3.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
+                        <p> <a href""><img src="/images/sandalias3.jpg"></a></p>
+                        <section class="caja-producto">
+                                <i class="fas fa-truck"></i>
                                 <p class="precios">$70.500</p>
                                 <p class="descuentos">10% off</p>
                                 <p class="descripciones">Samsung Galaxy S10</p>
                         </section>
                 </article>
                 <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias4.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$70.500</p>
-                                <p class="descuentos">10% off</p>
-                                <p class="descripciones">Samsung Galaxy S10</p>
-                        </section>
-                </article>
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias5.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$70.500</p>
-                                <p class="descuentos">10% off</p>
-                                <p class="descripciones">Samsung Galaxy S10</p>
-                        </section>
-                </article>
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias2.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$70.500</p>
-                                <p class="descuentos">10% off</p>
-                                <p class="descripciones">Samsung Galaxy S10</p>
-                        </section>
-                </article>
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias4.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$70.500</p>
-                                <p class="descuentos">10% off</p>
-                                <p class="descripciones">Samsung Galaxy S10</p>
-                        </section>
-                </article>
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias5.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$70.500</p>
-                                <p class="descuentos">10% off</p>
-                                <p class="descripciones">Samsung Galaxy S10</p>
-                        </section>
-                </article>
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias4.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$70.500</p>
-                                <p class="descuentos">10% off</p>
-                                <p class="descripciones">Samsung Galaxy S10</p>
-                        </section>
-                </article>
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias3.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$23.200</p>
-                                <p class="descuentos">5% off</p>
-                                <p class="descripciones">SmartTv Samsung 43"</p>
-                        </section>
-                </article>
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias5.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$23.200</p>
-                                <p class="descuentos">5% off</p>
-                                <p class="descripciones">SmartTv Samsung 43"</p>
-                        </section>
-                </article>
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias4.jpg"></a>
-                        </p>
-                        <section class="caja-producto"> <i class="fas fa-truck"></i>
-                                <p class="precios">$23.200</p>
-                                <p class="descuentos">5% off</p>
-                                <p class="descripciones">SmartTv Samsung 43"</p>
-                        </section>
-                </article>
-        </section>
+                  <p> <a href""><img src="/images/sandalias4.jpg"></a></p>
+                  <section class="caja-producto">
+                          <i class="fas fa-truck"></i>
+                          <p class="precios">$70.500</p>
+                          <p class="descuentos">10% off</p>
+                          <p class="descripciones">Samsung Galaxy S10</p>
+                  </section>
+          </article>
+          <article class="producto">
+            <p> <a href""><img src="/images/sandalias5.jpg"></a></p>
+            <section class="caja-producto">
+                    <i class="fas fa-truck"></i>
+                    <p class="precios">$70.500</p>
+                    <p class="descuentos">10% off</p>
+                    <p class="descripciones">Samsung Galaxy S10</p>
+            </section>
+    </article>
+    <article class="producto">
+      <p> <a href""><img src="/images/sandalias2.jpg"></a></p>
+      <section class="caja-producto">
+              <i class="fas fa-truck"></i>
+              <p class="precios">$70.500</p>
+              <p class="descuentos">10% off</p>
+              <p class="descripciones">Samsung Galaxy S10</p>
+      </section>
+</article>
+<article class="producto">
+<p> <a href""><img src="/images/sandalias4.jpg"></a></p>
+<section class="caja-producto">
+        <i class="fas fa-truck"></i>
+        <p class="precios">$70.500</p>
+        <p class="descuentos">10% off</p>
+        <p class="descripciones">Samsung Galaxy S10</p>
+</section>
+</article>
+      <article class="producto">
+          <p> <a href""><img src="/images/sandalias5.jpg"></a></p>
+      <section class="caja-producto">
+        <i class="fas fa-truck"></i>
+        <p class="precios">$70.500</p>
+        <p class="descuentos">10% off</p>
+        <p class="descripciones">Samsung Galaxy S10</p>
+      </section>
+      </article>
+
+    <article class="producto">
+      <p> <a href""><img src="/images/sandalias4.jpg"></a></p>
+      <section class="caja-producto">
+              <i class="fas fa-truck"></i>
+              <p class="precios">$70.500</p>
+              <p class="descuentos">10% off</p>
+              <p class="descripciones">Samsung Galaxy S10</p>
+      </section>
+    </article>
+    <article class="producto">
+      <p><a href""><img src="/images/sandalias3.jpg"></a></p>
+      <section class="caja-producto">
+          <i class="fas fa-truck"></i>
+          <p class="precios">$23.200</p>
+          <p class="descuentos">5% off</p>
+          <p class="descripciones">SmartTv Samsung 43"</p>
+      </section>    
+</article>
+<article class="producto">
+  <p><a href""><img src="/images/sandalias5.jpg"></a></p>
+  <section class="caja-producto">
+      <i class="fas fa-truck"></i>
+      <p class="precios">$23.200</p>
+      <p class="descuentos">5% off</p>
+      <p class="descripciones">SmartTv Samsung 43"</p>
+  </section>    
+</article>
+<article class="producto">
+  <p><a href""><img src="/images/sandalias4.jpg"></a></p>
+  <section class="caja-producto">
+      <i class="fas fa-truck"></i>
+      <p class="precios">$23.200</p>
+      <p class="descuentos">5% off</p>
+      <p class="descripciones">SmartTv Samsung 43"</p>
+  </section>    
+</article>
+    </section>
+
+
+
+        
         <section class="productos">
-                <article class="producto-genero">
-                        <p>
-                                <a href ""><img src="/images/sandalias3.jpg"></a>
-                        </p>
-                        <section class="caja-producto">
-                                <h2 class="genero pink">Damas</h2> </section>
-                </article>
+               
+              
+                <article class="producto-genero">   
+                  <p><a href""><img src="/images/sandalias3.jpg"></a></p>
+                            <section class="caja-producto-genero">
+                                    <h2 class="genero pink">Damas</h2>
+                                    <p>Si sos mujer o estas buscando calzado para dama, cliquea en abajo.</p> 
+                                    <button class="boton pink" type="button" onclick="/dama">Descubrir!</button>
+    
+                                     </section>
+                            
+                           </article>
                 <br />
+                
                 <article class="producto-genero">
-                        <p>
-                                <a href ""><img src="/images/sandalias2.jpg"></a>
-                        </p>
-                        <section class="caja-producto">
-                                <h2 class="genero">Hombres</h2> </section>
+                        <p><a href""><img src="/images/sandalias2.jpg"></a></p>
+                        <section class="caja-producto-genero">
+
+                            
+                                <h2 class="genero">Hombres</h2>
+                                <p>Si buscas ojotas, crocs, sandalias, u otro tipo de calzado de goma, cliquea aquí abajo.</p> 
+                                <button class="boton" type="button" onclick="/Hombre")>Descubrir!</button>
+
+                        </section>
+                        
                 </article>
         </section>
+
         <h2 class="titulares">CATEGORIAS</h2>
         <section class="productos">
-                <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias5.jpg"></a>
-                        </p>
-                        <section class="caja-producto">
-                                <p class="precios">Crocs</p>
-                        </section>
+               
+               
+                <article class="producto">   
+                  <p><a href""><img src="/images/sandalias5.jpg"></a></p>
+                            <section class="caja-producto">
+                                    <p class="precios">Crocs</p>
+                                     </section>
+                            
                 </article>
                 <br />
+             
+                
                 <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias2.jpg"></a>
-                        </p>
+                        <p><a href""><img src="/images/sandalias2.jpg"></a></p>
                         <section class="caja-producto">
+
+                            
                                 <p class="precios">Sandalias</p>
+                            
                         </section>
+                       
                 </article>
+
                 <article class="producto">
-                        <p>
-                                <a href ""><img src="/images/sandalias4.jpg"></a>
-                        </p>
-                        <section class="caja-producto">
-                                <p class="precios">Ojotas</p>
-                        </section>
-                </article>
+                  <p><a href""><img src="/images/sandalias4.jpg"></a></p>
+                  <section class="caja-producto">
+
+                      
+                          <p class="precios">Ojotas</p>
+                      
+                  </section>
+                 
+          </article>
         </section>
-        <div class="ps-row ps-padding-64" id="menu">
-                <div class="ps-col l6 ps-padding-large">
-                        <h1 class="ps-center">Menu</h1>
-                        <br />
-                        <%  for (let i=0;i<menues.length;i++) { %>
-                                <h4><%= menues[i].plato  %> </h4>
-                                <p class="ps-text-grey">
-                                        <%= menues[i].detalle  %> U$S
-                                                <%= menues[i].precio %>
-                                </p>
-                                <br />
-                                <% } %>
-                </div>
-        </div>
-        </main>
+          
+
+        
+
+
+
+
+     
+    
+     
+      
+
+        
+      <div class="ps-row ps-padding-64" id="menu">
+        <div class="ps-col l6 ps-padding-large">
+          <h1 class="ps-center">Menu</h1>
+          <br />
+          <%  for (let i=0;i<menues.length;i++) { %>
+            <h4><%= menues[i].plato  %> </h4>
+            <p class="ps-text-grey">
+             <%= menues[i].detalle  %>  U$S <%= menues[i].precio %>
+           </p>
+           <br />
+         <% } %>    
+         
+        </div> 
+        
+         </div>
+        </main>    
       <!-- Footer -->
       <%- include('../partials/footer')   %> 
     

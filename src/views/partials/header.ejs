@@ -1,66 +1,37 @@
 <header class="encabezado">
     <section class="top">
-        <figure class="logo">
-            <a href="/"><img src="/images/111.png" width="200px" alt="Logo sandals"></a>
-        </figure>
-        <div id="navbar-container">
-            <div id="navbar">
-                <!--Solo mostrar en celular-->
-                <div class="barras-container">
-                    <button name="show" class="barras" onclick="showNav()"><i class="fas fa-bars"></i></button>
-                </div>
-                <form class="searchbar" id="searchfield" action="/" method="GET">
-                    <input type="text" placeholder="Buscar calzados, marcas y más" class="searchbar-field" name="search">
-                    <button type="submit" class="searchbar-button"><i class="fas fa-search"></i></button>
+        <figure class="logo"><img src="/images/logo-sandy-2.png"  alt="Logo sandals"></figure>
+                <form class="barbusqueda" action="/action_page.php">
+                  <input type="text" placeholder="Buscar calzado por nombre.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
-                <nav class="caja-menu" id="menu-links">
-                    <section class="menu">
-                        
-                        <ul class="opciones">
-                            <li><a class="icono" href="/login"><i class="fas fa-sign-in-alt"></i><span class="header-cat-text">Ingresa</span></a></li>
-                            <li><a class="icono" href="/register"><i class="fas fa-user-plus"></i><span class="header-cat-text">Crea tu cuenta</span></a></li>
-                            <li><a class="icono" href="/"><i class="fas fa-home"></i><span class="header-cat-text">Inicio</span></a></li>
-                            <li><a class="icono" href="#"><i class="fas fa-search"></i><span class="header-cat-text">Buscar</span></a></li> 
-                            <li><a class="icono" href="/carrito"><i class="fas fa-shopping-basket"></i><span class="header-cat-text">Mi carrito</span></a></li> 
-                            <li><a class="icono" href="#"><i class="fas fa-tags"></i><span class="header-cat-text">Ofertas</span></a></li> 
-                            <li><a class="icono" href="#"><i class="far fa-clock"></i><span class="header-cat-text">Historial</span></a></li> 
-                            <li><a class="icono" href="#"><i class="fas fa-list"></i><span class="header-cat-text">Categorias</span></a></li> 
-                        </ul>
-                    </section>
-                </nav> 
-            </div>
-        </div>
-        
-    </section>
-    <!--<p id="cuotas2"><i class="fas fa-phone"></i>Tel.0-800-5403-2039</p>-->
-    
-    
-    
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementById("navbar-container");
-        var searchfield = document.getElementById("searchfield")
-        var sticky = navbar.offsetTop;
-        var searchbarscroll = searchfield.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-    </script>
-    <script>
-        function showNav(){
-            var x = document.getElementById("menu-links");
-            if (x.style.display === "none") {
-                x.style.display = "flex";
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-</header>
 
+                <section class="cuotas"><i class="fas fa-phone"></i> Tel.0-800-5403-2039 </section>
+    </section>
+    <p id="cuotas2"><i class="fas fa-phone"></i>Tel.0-800-5403-2039</p>
+    
+    <nav class="caja-menu">
+        <section class="menu">
+        <ul class="opciones">
+            <li><a href="#" target="__blank">Inicio</a></li>
+            <li id="tiendas"><a href="#" target="__blank">Hombre</a></li>
+            <li><a href="#" target="__blank">Dama</a></li>
+            <li><a href="#" target="__blank">Ofertas</a></li>
+        </ul>
+        <ul class="opciones2">
+            <li><a class="icono" href="/register" target="__blank">Crea tu cuenta <i class="fas fa-user-plus"></i></a></li>
+            <li><a class="icono" href="/login" target="__blank">Ingresa <i class="fas fa-sign-in-alt"></i></a></li>
+            <li><a class="icono" href="#" target="__blank">Mis Compras <i class="fas fa-shopping-basket"></i></a></li> 
+        </ul>
+        
+        <ul class="opciones2soloicono">
+                <li><a class="icono" href="./register" target="__blank"> <i class="fas fa-user-plus"></i></a></li>
+                <li><a class="icono" href="/login" target="__blank"><i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a class="icono" href="#" target="__blank"><i class="fas fa-shopping-basket"></i></a></li> 
+        </ul>
+        </section>        
+
+    </nav> 
+    <!--Solo mostrar en celular-->
+    <a class="barras" href="#"><i class="fas fa-bars"></i></a>
+</header>
