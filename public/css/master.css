@@ -1,6 +1,6 @@
 *{
-    font-family: 'ProximaNova-Semibold', Helvetica, Arial;
-    /*font-family: 'Roboto', sans-serif; */
+    /*font-family: 'ProximaNova-Semibold', Helvetica, Arial;*/
+    font-family: 'Roboto', sans-serif; 
     margin:0;
     
     box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
          background-color: #F5F5F5;
 }   
   .encabezado {
-                background-color:#0065AF;
+                background-color:#012641;
                 padding-bottom:3px;
                 width:100%;
                 position:fixed;   
@@ -34,21 +34,21 @@ body {
                 /*flex-wrap:wrap;*/
                 padding:10px;
                 /*box-sizing: border-box; */
-                width:90%;
-                margin:0 auto;
+              
+                /*margin:0 auto;*/
                 box-sizing: border-box;
               }
   .logo       {
-                  width:40%
+                  
               }
   
      
   .barbusqueda {        
                   /*width:20%;*/
-                  justify-content: stretch;
+                  
 
                }               
-               .barbusqueda input[type=text]{
+ .barbusqueda input[type=text]{
                 margin-top:0px;
                 margin-left:0px;
                 padding: 100px 100px;
@@ -60,8 +60,8 @@ body {
 
   .cuotas       {              
                 font-size:1rem; 
-                width:50%;
-                color:white;
+                
+                color:silver;
                 /*display:none;*/
                 justify-content: flex-end;
               } 
@@ -91,7 +91,7 @@ body {
   
 
   }
-  .caja-menu {           background-color: #0076CB;
+  .caja-menu {           background-color: #000000;
 
                           }
   
@@ -103,18 +103,27 @@ body {
           margin:0 auto; 
 
         }   
-  
+  .opciones {text-align:center;}
   
   .opciones, .opciones2 ,.opciones2soloicono {
               display:none;
               }
   
-  .opciones2 a, .opciones li a {
-                            padding-left:10px;
-                            /*color:gold;*/
+  .opciones li a {
+                            padding-right:25px;
+                            color:silver;
+                            font-size:1.1rem;
 
                           }
-  
+                             
+
+  .opciones2 li a{
+                            color:#d7a836;
+                            /*font-weight: bold;*/
+                            font-size:1.1rem;
+          
+              }
+          
         
   .productos { 
           display:flex;
@@ -125,7 +134,6 @@ body {
          }
   
          .genero  {
-          font-family: 'GothamRounded-Bold', Helvetica, Arial;
           font-size: 88px;
           text-align: center;
           color: #0073CD;
@@ -145,7 +153,7 @@ body {
           display: inline-block;
           background-color: #0076CB;
           padding: 15px 48px;
-          font-family: 'ProximaNova-Bold', Helvetica, Arial;
+          /*font-family: 'ProximaNova-Bold', Helvetica, Arial;*/
           font-size: 14px;
           letter-spacing: 1px;
           text-transform: uppercase;
@@ -156,7 +164,7 @@ body {
         }
 
          .titulares{ 
-          font-family: 'ProximaNova-Semibold', Helvetica, Arial;
+          /*font-family: 'ProximaNova-Semibold', Helvetica, Arial;*/
           font-size:30px; 
           text-align: center;
           margin-top:20px;
@@ -252,7 +260,7 @@ body {
   
                 .caja-producto-genero p {
     
-                  font-family: 'ProximaNova-Regular', Helvetica, Arial;
+                  /*font-family: 'ProximaNova-Regular', Helvetica, Arial;*/
                   font-size: 14px;
                   color: #999;
                   line-height: 1.7;
@@ -267,14 +275,14 @@ body {
   .icofoot {
             
             font-size:2.0em;
-            color:lightskyblue;
+            color:#d7a836;
             margin-bottom: 10px;
             transition: color 1s;
   
           }
   
   .icofoot:hover {
-            color:orange;
+            color:magenta;
   
   }
   .titfoot {
@@ -283,7 +291,7 @@ body {
           }
   
   .textfoot {
-            color:lightskyblue;
+            color:#d7a836;
             font-size: 12px;
           }
   
@@ -340,15 +348,15 @@ body {
   }     
   
   .opciones  {
-  display: flex;
+  /*display: flex;*/
   list-style: none;
   margin: 0; 
   padding: 0; 
   padding-left: 0px;
   /*padding-right: 10px;*/
-  flex-wrap: nowrap;
+  
   justify-content: flex-start;
-  width: 60%;
+  width: 50%;
   }
   .opciones li{
       /*flex: 1; */
@@ -356,7 +364,7 @@ body {
   
   .opciones a{
   
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-decoration: none;
   
     /*font-weight:bold;  */
@@ -411,7 +419,7 @@ body {
   footer { 
             text-align:center;
             padding:20px;
-            background-color:#0065AF;
+            background-color:#012641;
             color:#ffffff;
           }
   
@@ -709,14 +717,19 @@ body {
   @media screen and (min-width: 1200px) {
     .encabezado {
 
-      height:110px;
+      height:120px;
   
     }
 
-    .caja-menu {           background-color: #0076CB;
-                            border-bottom:  #0076CB 7px solid;
+    .caja-menu {           /*background-color: #0076CB;
+                            border-bottom:  #0076CB 7px solid;*/
+
     }
-    .top {justify-content: space-between; }
+    .top {justify-content: space-between; 
+          text-align:center;
+          width:90%;
+          margin:auto;
+        }
 
     .logo {
       width:13%;
@@ -743,15 +756,9 @@ body {
     .menu a {
       
     }
-    .opciones a{      color:white;
-    }
+    
 
-    .opciones2 a{
-                  color:goldenrod;
-                  font-weight: bold;
-
-    }
-
+    
     .opciones  {
       width: 20%;
       justify-content: flex-start;
@@ -795,7 +802,7 @@ body {
 
   @media screen and (min-width: 1200px) {
   .logo {
-        width:14%;
+        width:9%;
 
   }
   
